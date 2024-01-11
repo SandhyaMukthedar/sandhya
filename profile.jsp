@@ -3,7 +3,7 @@
 <% out.println("<html><body>"); 
 String id=request.getParameter("id"); 
 Class.forName("com.mysql.jdbc.Driver "); 
-Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sushma","root","root"); 
+Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/sandhya","root","root"); 
 Statement 
 stmt=con.createStatement(); 
 String sqlstmt="select * from login where id="+id+"";  
